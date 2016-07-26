@@ -1,0 +1,22 @@
+{
+  "name": "ddp-messages",
+  "version": "1.0.0",
+  "description": "Send Meteor ddp messages from the server to the client",
+  "main": "",
+  "scripts": {
+    "test": "meteor test-packages --once --driver-package dispatch:mocha-phantomjs ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoinColony/ddp-messages.git"
+  },
+  "author": "Christian Maniewski <chris@colony.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoinColony/ddp-messages/issues"
+  },
+  "homepage": "https://github.com/JoinColony/ddp-messages#readme",
+  "dependencies": {
+    "shortid": "^2.2.6"
+  }
+}
